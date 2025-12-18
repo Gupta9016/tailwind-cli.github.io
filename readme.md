@@ -1,4 +1,4 @@
-#Local to remote repo:
+# Local to remote repo:
  *Method :1
  git -repo create
  git clone <link>
