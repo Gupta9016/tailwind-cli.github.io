@@ -1,14 +1,38 @@
-# Local to remote repo:
- * Method :1
- ** git -repo create
- git clone <link>
- git add ./ git add filename
- git commit -m "msg"
- git push origin  main
+# Local to Remote Repo
 
-* method :2
-git init
-<paste link>
+## Method 1
+
+```bash
+# Create a git repo
+git repo create
+
+# Clone the remote repo
+git clone <link>
+
+# Add all files or specific file(s)
 git add .
+
+# Or add a specific file
+git add <filename>
+
+# Commit changes with a message
+git commit -m "msg"
+
+# Push changes to the main branch
+git push origin main
+
+
+## Method : 2
+git init
+
+# Add remote repository link
+git remote add origin <paste-link>
+
+# Add all files
+git add .
+
+# Commit changes with a message
 git commit -m "tailwind-cli"
+
+# Push changes to the main branch
 git push origin main
