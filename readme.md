@@ -11,4 +11,9 @@ git init
 <paste link>
 git add .
 git commit -m "tailwind-cli"
-git push origin main
+git push
+
+git branch ---> check branch
+git branch <branchname> -->new branch
+git checkout <branchname>--> to navigate between branch
+
