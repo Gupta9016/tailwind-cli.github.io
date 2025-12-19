@@ -33,6 +33,13 @@ git add .
 
 # Commit changes with a message
 git commit -m "tailwind-cli"
+git push
+
+
+git branch ---> check branch
+git branch <branchname> -->new branch
+git checkout <branchname>--> to navigate between branch
+
 
 # Push changes to the main branch
 git push origin main
